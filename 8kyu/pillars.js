@@ -9,3 +9,17 @@
 
 ////////////////////////////////////////////////////////////////////////////
 // SOLUTION
+
+
+function pillars(numPill, dist, width) {
+    // your code here
+    let totalPillar=numPill-1;
+    if(totalPillar>=1){
+    let totalwidth= width*totalPillar-width;
+    let length=totalPillar*dist*100+totalwidth;
+      return length;
+    }
+    else{
+      return 0;
+    }
+  }
