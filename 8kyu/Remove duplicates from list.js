@@ -13,3 +13,10 @@
 ////////////////////////////////////////////////////////////////////////////
 // SOLUTION
 
+function distinct(a) {
+    let mySet = new Set(a)
+    const arr=[...mySet]
+   return arr;
+ }
+   
+
