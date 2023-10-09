@@ -29,3 +29,4 @@ function excludingVatPrice(price){
   
     return parseFloat((originalprice).toFixed(2))
 }
+
