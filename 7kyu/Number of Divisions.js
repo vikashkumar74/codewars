@@ -26,4 +26,4 @@ const divisions = (n, divisor) => {
     }
   return count;
     
-  };
+};
