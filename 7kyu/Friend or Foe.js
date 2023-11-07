@@ -12,3 +12,13 @@
 // Note: keep the original order of the names in the output.
 ////////////////////////////////////////////////////////////////////////////
 // SOLUTION
+function friend(f){
+    //your code here
+   let arr=[];
+    for(let items of f){
+      if(items.length==4){
+        arr.push(items);
+      }
+    }
+  return arr;
+  }
